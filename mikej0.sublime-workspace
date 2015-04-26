@@ -1,0 +1,790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"column"
+			],
+			[
+				"V",
+				"V"
+			],
+			[
+				"strand",
+				"strand_a"
+			],
+			[
+				"stran",
+				"strand_a"
+			],
+			[
+				"FROM",
+				"FROM_DNA"
+			],
+			[
+				"str",
+				"strand_b"
+			],
+			[
+				"sq",
+				"square_of_sums"
+			],
+			[
+				"sum",
+				"sum_of_squares"
+			],
+			[
+				"s",
+				"sum_result"
+			],
+			[
+				"su",
+				"sum_of_squares"
+			],
+			[
+				"dna",
+				"dna_sequence"
+			],
+			[
+				"divi",
+				"divisor"
+			],
+			[
+				"rain",
+				"raindrop_hash"
+			],
+			[
+				"div",
+				"divisible_by"
+			],
+			[
+				"raind",
+				"raindrop_result"
+			],
+			[
+				"tra",
+				"transcribed_sequence"
+			],
+			[
+				"Giga",
+				"GigasecondInDays"
+			],
+			[
+				"a",
+				"am	alias_method .."
+			],
+			[
+				"z",
+				"zip	zip(enums) { |row| .. }"
+			],
+			[
+				"date",
+				"date_to_process"
+			],
+			[
+				"stra",
+				"strand_two"
+			],
+			[
+				"hammin",
+				"hamming_distance_count"
+			],
+			[
+				"st",
+				"strand_one"
+			],
+			[
+				"shortest",
+				"shortest_string_length"
+			],
+			[
+				"spli",
+				"split_strand2"
+			],
+			[
+				"split",
+				"split_strand1"
+			],
+			[
+				"leng",
+				"length_of_strand1"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"resource",
+				"resources"
+			],
+			[
+				"app",
+				"appname"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 738,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "clo",
+		"selected_items":
+		[
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syncoff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"spaceg",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagelist",
+				"Package Control: List Packages"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synrub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 350.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mikey/Library/Application Support/Karabiner/private.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/mousekeys.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/misc.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/appdefs.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/otherswitching.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/tabswitching.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/spotify.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/sysdiagnose.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/mouskeys.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/switching.xml",
+		"/Users/mikey/Library/Application Support/Karabiner/tabs.xml",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/assets/stylesheets/bootstrap.css",
+		"/Users/mikey/Downloads/bootstrap-3.2.0/dist/css/bootstrap-theme.css",
+		"/Users/mikey/Desktop/code/repos/bootswatch/superhero/variables.less",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/assets/stylesheets/application.css",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/views/home/index.html.erb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/views/layouts/application.html.erb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/views/layouts/_header.html.erb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/assets/stylesheets/bootstrap-social.css",
+		"/Users/mikey/Desktop/code/repos/GovTroll/bin/bundle",
+		"/Users/mikey/Desktop/code/repos/GovTroll/config/boot.rb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/config/initializers/backtrace_silencers.rb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/views/posts/index.html.erb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/app/views/index.html.erb",
+		"/Users/mikey/Desktop/code/repos/GovTroll/README.md",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Classes/XMLCompiler.h",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+symbol_map.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/util/lint/xcodeproj.rb",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/kext/Classes/EventWatcher.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/snippets/emacsmode_controlPNBF_nomodifiers.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Classes/EnvironmentChecker.h",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/kext/FromEvent/CommonData.hpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/kext/FromEvent/KeyCode.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/flags.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/general.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/grenouille.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/samples.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/simultaneouskeypresses.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/thumbsense.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/touchcursor.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/invalid_xml/appdef_empty_name/private.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/invalid_xml/appdef_no_name/private.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/engelbart.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/include/checkbox/asetniop.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/windownamedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/vkopenurldef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/vkchangeinputsourcedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/uielementroledef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/replacementdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/number.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/modifierdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/inputsourcedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/devicevendordef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/deviceproductdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/devicelocationdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/checkbox.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/system_xml/appdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/private.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/keycode.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/include3.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/include2.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/include1.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/include.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/xml_compiler/data/private_xml/appendix.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/Tests/lib/string/data/checkbox.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/windownamedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/vkopenurldef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/vkchangeinputsourcedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/uielementroledef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/replacementdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/private.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/number.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/modifierdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/inputsourcedef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/devicevendordef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/deviceproductdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/devicelocationdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/checkbox.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Resources/appdef.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/pkginfo/Distribution.xml.tmpl",
+		"/Users/mikey/Desktop/code/repos/Karabiner/files/sample/private.xml",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+remapclasses_initialize_vector_loader.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/include/pqrs/xml_compiler_bindings_clang.h",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+ui_element_role.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+remapclasses_initialize_vector.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+window_name.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+preferences_node.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+filter_vector.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+bindings_clang.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/include/pqrs/xml_compiler.hpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+url.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+replacement.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+modifier.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+inputsource.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+device.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/lib/xml_compiler/src/xml_compiler+app.cpp",
+		"/Users/mikey/Desktop/code/repos/Karabiner/src/core/server/Classes/XMLCompiler.m",
+		"/Users/mikey/Desktop/code/repos/Karabiner/make-package.sh",
+		"/Users/mikey/Desktop/code/repos/Karabiner/,",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/controllers/home_controller.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/home/index.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/sample posts",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/home/guide.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/controllers/omniauth_callbacks_controller.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/routes.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/Gemfile",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/initializers/devise.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/models/user.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/models/authentication.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/layouts/application.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/controllers/authentications_controller.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/application.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/spec/models/user_spec.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/db/migrate/20140712050830_add_columns_to_users.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/assets/stylesheets/application.css",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/initializers/session_store.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/secrets.yml",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/bin/spring",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/log/development.log",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/database.yml",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/config/initializers/openaustralia_initalizer.rb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/devise/unlocks/new.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/devise/mailer/confirmation_instructions.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/devise/mailer/reset_password_instructions.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/app/views/devise/mailer/unlock_instructions.html.erb",
+		"/Users/mikey/Desktop/code/govhack/GovTroll/db/migrate/20140712044318_devise_create_users.rb",
+		"/Users/mikey/.config/fish/config.fish"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CONTROL_L",
+			"TAB",
+			"--KeyOverlaidModifier-- \n				KeyCode::OPTION_R, \n				KeyCode::OPTION_R,",
+			"--KeyOverlaidModifier-- \n				KeyCode::OPTION_R, \n				KeyCode::OPTION_R, ",
+			"--KeyOverlaidModifier-- \n				KeyCode::COMMAND_R, \n				KeyCode::COMMAND_R, ",
+			"OPTION_L",
+			"COMMAND_L",
+			"tab-switching - ",
+			"  <include path=\"tabs.xml\" />\n",
+			"md",
+			"btn",
+			"</li>",
+			"<li>",
+			"li",
+			"Thirdly",
+			"SHIFT_L",
+			"BRACKET_LEFT",
+			"number",
+			"a",
+			"generic_sequence",
+			"rna_sequence",
+			"dna_sequence",
+			"DNA_TO_RNA",
+			"transcribed_rna_sequence",
+			"inject",
+			"sum_result",
+			"square_of_sums",
+			"skip",
+			"divisibleBy",
+			"number_to_test",
+			"divisible_by",
+			"raindrop_hash",
+			"raindrop_result",
+			"skip",
+			"GigasecondInDays",
+			"A",
+			"transcribed_sequence",
+			"transcribed_rna_sequence",
+			"transcribed_sequence",
+			"skip",
+			"strand_two",
+			"strand_one",
+			"i",
+			"string_position",
+			"hamming_distance_count",
+			"strand2",
+			"strand1",
+			"count",
+			"length_of_strand_2",
+			"length_of_strand_1",
+			"arg",
+			"arg1",
+			"skip",
+			"evenly_divisible_by",
+			"a",
+			":",
+			"ctrl+0",
+			"CONTROL_L",
+			"ModiferFlag",
+			"SHIFT_L"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mikej0.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"xml",
+				"src/core/server/Resources/include/checkbox/general.xml"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"authe",
+				"app/controllers/authentications_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"",
+				"roman_numerals_test.rb"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"di",
+				"difference_of_squares_test.rb"
+			],
+			[
+				"r",
+				"README.md"
+			],
+			[
+				"ri",
+				"raindrops_test.rb"
+			],
+			[
+				"com",
+				"complement_test.rb"
+			],
+			[
+				"gig",
+				"gigasecond.rb"
+			],
+			[
+				"ha",
+				"hamming.rb"
+			],
+			[
+				"h",
+				"hamming_test.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"show",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"comm",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"posts",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"controll",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"confi",
+				"config/routes.rb"
+			],
+			[
+				"index",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"inde",
+				"app/views/comments/index.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
