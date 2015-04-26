@@ -1,4 +1,6 @@
-/***************GENERAL***************/
+/******************************
+GENERAL
+******************************/
 a {
 	text-decoration: none;
 }
@@ -9,9 +11,64 @@ a {
 	padding: 0 5%;
 }
 
-/***************HEADING***************/
 
+
+/******************************
+HEADING
+******************************/
 #logo {
 	text-align: center;
-	margin: 0;
+	margin: -5px 0 0;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+
+
+/******************************
+NAV
+******************************/
+
+
+
+/******************************
+SECTIOn
+******************************/
+
+
+
+/******************************
+FOOTER
+******************************/
+
+
+
+/******************************
+COLOURS
+******************************/
+body {
+	background-color: #303F9F;
+	color: fff;
+}
+
+header {
+	background-color: #3F51B5;
+	color: fff;
+}
+
+nav {
+	background-color: #303F9F;
+	color: fff;
+}
+
+section {
+	background-color: #303F9F;
+	color: fff;
+}
+
+footer {
+	background-color: #212121;
+	color: fff;
 }
