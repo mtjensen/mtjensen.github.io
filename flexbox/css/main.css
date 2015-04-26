@@ -1,0 +1,60 @@
+/* General */
+a {
+	text-decoration: none;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	background: #933;
+}
+
+/* Site banner */
+
+#banner {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: baseline;
+	height: 150px;
+	background: #ddd;
+	width: 100%
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	flex: 2 1 auto;
+	margin: 0 0 0 5%;
+	padding: 0;
+}
+
+#navigation {
+	flex: 1 1 auto;
+	margin: 0 5% 0 0;
+	padding: 0;
+}
+
+#navigation li {
+	list-style: none;
+	display: inline-block;
+}
+
+/* Site body */
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 100%;
+	padding: 0 0 50px 0;
+}
+
+#content a {
+	width: 28.3333%;
+	margin: 2.5%;
+}
+
+#content a img {
+	max-width: 100%;
+}

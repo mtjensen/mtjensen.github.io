@@ -1,0 +1,56 @@
+@media screen and (min-width: 480px) {
+	/*****************************
+	PAGE: PORTFOLIO
+	******************************/
+	
+	#gallery li {
+		width: 28.3333%;
+	}
+	
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	#wrapper {
+		max-width: 950px;
+	}
+
+	#gallery li {
+		width: 20%;
+	}
+
+		#gallery li:nth-child(4n) {
+		clear: none;
+	}
+	
+	#gallery li:nth-child(5n) {
+		clear: left;
+	}
+
+	header {
+		margin: 0;
+		margin-bottom: 30px;
+		padding: 0;
+		height: 120px;
+	}
+
+	#logo {
+		float: left;
+		width: 45%;
+		margin-left: 5%;
+	}
+
+	nav {
+		background: none;
+		float: right;
+		width: 45%;
+		margin: 0;
+		padding: 0;
+		margin-right: 5%;
+		height: 120px;
+		line-height: 120px;
+	}
+
+}

@@ -6,9 +6,13 @@ a {
 }
 
 #wrapper {
-	max-width: 940px;
+	max-width: 840px;
 	margin: 0 auto;
 	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;
 }
 
 /******************************
@@ -64,20 +68,32 @@ nav li {
 	font-weight: normal;
 	font-size: 1.18em;
 	padding: 15px 10px;
+	line-height: 1.7em;
 }
 
+#navigation li a:hover {
+	/*font-size: 2.5em;*/
+}
 
 /******************************
-SECTION
+PAGE: OVERVIEW
 ******************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
 
-
-/******************************
-FOOTER
-******************************/
-
-
+#gallery li p {
+	color: #3F51B5;
+	text-align: center;
+}
 
 /******************************
 COLOURS
@@ -104,10 +120,6 @@ nav {
 
 nav a.selected {
 	text-decoration: underline;
-}
-
-section {
-	background-color: #7D9EC0;
 }
 
 footer {
