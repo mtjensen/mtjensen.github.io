@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+	
+}
+
+@media screen and (min-width: 1050px) {
+	header a {
+		float: left;
+		width: 45%;
+		margin-left: 5%?
+	}
+	nav {
+		background: none;
+		float: right;
+		width: 45%;
+		margin-right: 5%
+	}
+}

@@ -64,6 +64,11 @@ nav li {
 	font-weight: normal;
 	font-size: 1.18em;
 	padding: 15px 10px;
+	line-height: 1.7em;
+}
+
+#navigation a:hover {
+	/*font-size: 2.5em;*/
 }
 
 
