@@ -47,6 +47,7 @@ a {
 	flex-direction: row;
 	justify-content: center;
 	max-width: 100%;
+	padding: 0 0 50px 0;
 }
 
 #content a {
