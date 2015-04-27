@@ -1,15 +1,5 @@
 @media screen and (min-width: 480px) {
-	/*****************************
-	PAGE: PORTFOLIO
-	******************************/
 	
-	#gallery li {
-		width: 28.3333%;
-	}
-	
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}
 }
 
 @media screen and (min-width: 1050px) {
@@ -23,6 +13,7 @@
 		float: right;
 		width: 45%;
 		margin-right: 5%;
+		border-bottom: 16px solid #000;
 	}
 
 }
