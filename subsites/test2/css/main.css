@@ -47,36 +47,38 @@ a:visited {
 	color: #eee;
 	text-shadow: 2px 2px 3px #000;
 	font-family: 'Libre Baskerville', serif;
-	width: 70vw;
+	width: 75vw;
 	margin: auto;
 	padding: 25vh 0;
 }
 
-.title-content h1, h2{
-	height: 25vh;
-	padding: 7vh 0;
-}
-
 .title-content h1 {
-	font-size: 6em;
-	letter-spacing: .1em;
+	font-size: 6.5vw;
+	line-height: 6.5vw;
+	letter-spacing: 0.375vw;
 	font-weight: 700;
+	height: 25vh;
+	padding: 8vh 0 4vh;
 }
 
 .title-content h2 {
-	font-size: 2.5em;
-	letter-spacing: 0.2em;
+	font-size: 3.5vw;
+	line-height: 3.5vw;
+	letter-spacing: 0.375vw;
 	border-top: 2px solid white;
+	height: 25vh;
+	padding: 7vh 0 6vh;
 }
 
 /* Body class selectors */
 
 .body {
 	background: radial-gradient(circle, #fff, rgba(0,0,0,.14) 110%);
+	padding: 0 12.5vw;
 }
 
 .primary-content {
-	width: 70%;
+	/*width: 70vw;*/
 	margin: auto;
 	padding: 6vw 0;
 }
@@ -95,7 +97,7 @@ a:visited {
 /* Contact info class selectors */
 
 .contact-info {
-	width: 70%;
+	/*width: 70%;*/
 	margin: auto;
 	border-top: 2px solid #555;
 	padding: 2vw 0 6vw;
@@ -122,17 +124,25 @@ a:visited {
 /* Media queries */
 
 @media (orientation: portrait) {
+	body {
+		font-size: 1.65vw;
+	}
+
 	.header {
 		height: 60vh; /* 60% sizing for all height-based sizes within header must be applied */
 	}
 
 	.title-content {
-		width: 83vw;
+		width: 80vw;
 		padding: 15vh 0;
 	}
 
 	.title-content h1, h2{
 		height: 15vh;
-		padding: 4.2vh 0;
+		padding: 3.3vh 0;
+	}
+
+	body {
+		padding-top: 0 10vw;
 	}
 }
