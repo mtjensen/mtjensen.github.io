@@ -1,5 +1,4 @@
 /* Element selectors */
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -9,11 +8,10 @@
 }
 
 body {
-	font-size: 1.35vw;
+	font-size: 16px;
 }
 
 /* Link styles */
-
 a {
 	text-decoration: none;
 	color: rgba(46,100,209,1);
@@ -32,7 +30,6 @@ a:visited {
 }
 
 /* Header class selectors */
-
 .header {
 	background: linear-gradient(0deg, #000, transparent),
 							radial-gradient(circle at top, transparent, rgba(0,102,255,.4)),
@@ -40,47 +37,43 @@ a:visited {
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 100vh;
+	height: 680px;
 }
 
 .title-content {
 	color: #eee;
 	text-shadow: 2px 2px 3px #000;
 	font-family: 'Libre Baskerville', serif;
-	width: 75vw;
+	width: 75%;
 	margin: auto;
-	padding: 25vh 0;
+	padding: 170px 0;
+	height: 680px;
 }
 
 .title-content h1 {
-	font-size: 6.5vw;
-	line-height: 6.5vw;
-	letter-spacing: 0.375vw;
+	font-size: 5.3em;
+	letter-spacing: 0.10em;
 	font-weight: 700;
-	height: 25vh;
-	padding: 8vh 0 4vh;
 }
 
 .title-content h2 {
-	font-size: 3.5vw;
-	line-height: 3.5vw;
-	letter-spacing: 0.375vw;
+	font-size: 2.6em;
+	line-height: 2.6em;
+	letter-spacing: 0.175em;
 	border-top: 2px solid white;
-	height: 25vh;
-	padding: 7vh 0 6vh;
+	margin: 35px 0 0;
+	padding: 23px 0 0;
 }
 
 /* Body class selectors */
-
 .body {
 	background: radial-gradient(circle, #fff, rgba(0,0,0,.14) 110%);
-	padding: 0 12.5vw;
 }
 
 .primary-content {
-	/*width: 70vw;*/
+	width: 55%;
 	margin: auto;
-	padding: 6vw 0;
+	padding: 70px 0 0;
 }
 
 .primary-content p {
@@ -90,30 +83,23 @@ a:visited {
 	line-height: 2.4em;
 }
 
-.break1 {
-	margin: 0.5vw 0;
-}
-
 /* Contact info class selectors */
-
 .contact-info {
-	/*width: 70%;*/
-	margin: auto;
+	width: 75%;
 	border-top: 2px solid #555;
-	padding: 2vw 0 6vw;
+	margin: 65px auto 0;
+	padding: 70px 0 70px;
 }
 
 .contact-info h2 {
 	color: #555;
 	font-size: 2.5em;
-	line-height: 2.4em;
+	line-height: 1.8em;
 	font-family: 'Libre Baskerville', serif;
-	margin-bottom: -.5vw;
 }
 
 .contact-info ul {
-	width: 100%;
-	margin: auto;
+	margin: 10px auto 0;
 	color: #555;
 	font-family: 'Noto Serif', serif;
 	font-size: 1.8em;
@@ -122,27 +108,60 @@ a:visited {
 }
 
 /* Media queries */
-
-@media (orientation: portrait) {
+@media (max-width: 910px) {
 	body {
-		font-size: 1.65vw;
+		font-size: 14px;
 	}
 
 	.header {
-		height: 60vh; /* 60% sizing for all height-based sizes within header must be applied */
+		height: 600px;
 	}
 
 	.title-content {
-		width: 80vw;
-		padding: 15vh 0;
+		height: 600px;
+		padding: 150px 0;
 	}
 
-	.title-content h1, h2{
-		height: 15vh;
-		padding: 3.3vh 0;
+	.primary-content {
+		width: 70%;
+	}
+}
+
+@media (max-width: 790px) {
+
+	.header {
+		height: 500px;
 	}
 
-	body {
-		padding-top: 0 10vw;
+	.title-content {
+		width: 83%;
+		padding: 60px 0;
+	}
+
+	.title-content h1 {
+		font-size: 4.5em;
+		letter-spacing: 0.08em;
+	}
+
+	.title-content h2 {
+		font-size: 2.2em;
+		line-height: 2.2em;
+		letter-spacing: 0.13em;
+		margin: 35px 0 0;
+		padding: 23px 0 0;
+	}
+
+	.primary-content {
+		width: 81%;
+	}
+
+	.primary-content p {
+		font-size: 1.4em;
+		line-height: 2em;
+	}
+
+	.contact-info {
+		font-size: 12px;
+		width: 83%;
 	}
 }
