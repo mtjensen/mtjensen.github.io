@@ -1,4 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
 * {
 	margin: 0;
 	padding: 0;
+	font-weight: 300;
+	font-family: 'Noto Sans', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	letter-spacing: .06em;
+}
+
+#wrapper {
+	width: 50%;
+	margin: auto;
+}
+
+#heading {
+	margin-top: 20px;
+}
+
+#links {
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 3.3em;
+	letter-spacing: .14em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h1 .section	{
+	margin-top: 18px;
+}
+
+#main-links li {
+	font-size: 1.5em;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+p {
+	font-size: 1em;
 }
