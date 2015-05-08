@@ -4,11 +4,15 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-weight: 300;
+
 	font-family: 'Noto Sans', sans-serif;
-	list-style: none;
+	font-size: 1em;
 	letter-spacing: .06em;
+	font-weight: 300;
+
 	color: #222;
+	list-style: none;
+	
 }
 
 h1 {
@@ -20,10 +24,6 @@ h2 {
 	font-size: 1.5em;
 }
 
-p {
-	font-size: 1em;
-}
-
 /* ID selectors */
 #wrapper {
 	width: 50%;
@@ -32,11 +32,11 @@ p {
 
 /* Class selectors */
 .heading h2	{
-	margin-top: 10px;
+	margin-top: 6px;
 }
 
 .links {
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
 .links li {
@@ -46,9 +46,21 @@ p {
 }
 
 .content {
-	margin-top: 30px;
-	padding-top: 30px;
+	margin-top: 15px;
+	/*padding-top: 30px;*/
 	border-top: 2px #222 solid;
+}
+
+.content h2 {
+	margin-top: 35px;
+}
+
+.content ul {
+	margin-top: 15px;
+}
+
+.content li {
+	margin-top: 3px;
 }
 
 /* Link styles */
