@@ -113,3 +113,15 @@ a:hover {
 	/*color: #6699FF;*/
 	text-decoration: underline;
 }
+
+/* Media queries */
+@media (orientation: portrait) {
+	#wrapper {
+		width: 80%;
+		margin: auto;
+	}
+	body {
+		font-size: 0.8em;
+	}
+
+}
