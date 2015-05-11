@@ -113,12 +113,21 @@ a:hover {
 }
 
 /* Media queries */
+@media (max-width: 900px) {
+	#wrapper {
+		width: 70%;
+	}
+}
+
 @media (orientation: portrait) {
 	#wrapper {
 		width: 80%;
-		margin: auto;
 	}
 	body {
 		font-size: 0.8em;
+	}
+
+	h1 {
+		font-size: 10vw;
 	}
 }
