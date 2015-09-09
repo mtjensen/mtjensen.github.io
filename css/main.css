@@ -77,53 +77,6 @@ h2 {
 	margin-top: 10px;
 }
 
-/* Projects */
-#projects {
-
-}
-
-/*#projects a {
-	float: left;
-	width: 300px;
-	height: 300px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 100% auto;
-}
-
-#projects li:nth-child(1) a {
-	background-image:url(../img/site_1.png);
-}
-
-#projects li:nth-child(2) a {
-	background-image: url(../img/site_2.png);
-}*/
-
-#projects li {
-	width: 325px;
-	height: 355px;
-	float: left;
-	margin-right: 25px;
-}
-
-#projects a {
-	width: 100%;
-	height: 100%;
-}
-
-#projects img {
-	width: 325px;
-	height: 250px;
-}
-
-#projects p {
-	width: 325px;
-	height: 55px;
-}
- 
-
-
-
 /* Link styles */
 a {
 	text-decoration: none;
