@@ -34,13 +34,13 @@
 	margin: 0 12.5px 0;
 }
 
-
 #linkbar a {
 	width: 100%;
 }
 
 #linkbar a.selected {
 	font-weight: bold;
+	cursor: pointer;
 }
 
 /* Subheader */
@@ -61,7 +61,6 @@
 }
 
 #projects li {
-	/*width: 27.5%;*/
 	width: 250px;
 	height: 280px;
 	float: left;
@@ -71,29 +70,29 @@
 }
 
 #projects li:hover {
-	/*background: red;*/
 	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 #projects a {
-	width: 100%;
+	width: 250px;
 	height: 280px;
+	display: block;
 }
 
 #projects img {
 	width: 90%;
 	height: 200px;
-	margin: 10px 5% 0;
+	margin: 10px 5% 30px;
 	border-radius: 3px;
-	margin-bottom: 23px;
 }
 
 #projects p {
-	width: 90%;
+	width: 100%;
 	height: 55px;
-	margin: 10px 5% 0;
+	/*margin: 10px 5% 0;*/
 	text-align: center;
 	font-size: 18px;
+	line-height: 0px;
 }
 
 /* About */
