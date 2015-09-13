@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
-/* Element selectors */
 * {
 	margin: 0;
 	padding: 0;
@@ -17,63 +16,130 @@ body {
 h1 {
 	font-size: 3.3em;
 	letter-spacing: .14em;
-	margin-left: -2px;
+	margin-bottom: 15px;
 }
 
 h2 {
 	font-size: 1.5em;
 }
 
-/* ID selectors */
+/* Heading */
+#heading {
+	text-align: center;
+	height: 155px;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+	padding-top: 25px;
+	margin-bottom: 25px;
+	background: #F44336;
+	color: #fff;
+}
+
+/* Wrapper */
 #wrapper {
 	width: 80%;
 	margin: auto;
 }
 
-.heading {
+/* Linkbar */
+#linkbar {
 	text-align: center;
-	height: 155px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
-	padding-top: 25px;
+	height: 50px;
+	margin-bottom: 25px;
 }
 
-/* Class selectors - heading */
-.heading h2	{
-	margin-top: 6px;
+#linkbar ul {
+	vertical-align: middle;
 }
 
-/* Class selectors - links */
-.linkbar {
-	margin-top: 35px;
-	text-align: center;
-}
-
-.linkbar li {
+#linkbar li {
 	font-size: 1.5em;
 	display: inline-block;
-	padding-right: 10px;
+	margin: 0 12.5px 0;
 }
 
-.linkbar a {
+#linkbar a {
 	width: 100%;
 }
 
-/* Class selectors - main content */
-.content {
-	margin-top: 15px;
-	border-top: 2px #222 solid;
+#linkbar a.selected {
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.content-section {
-	margin-top: 35px;
+/* Projects */
+#projects {
+	margin-bottom: 25px;
+	height: 500px;
 }
 
-.content-section > h2 {
-	text-decoration: underline;
+#projects li {
+	width: 250px;
+	height: 280px;
+	float: left;
+	margin: 0 2.915% 0;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
 }
 
-.sublist {
-	margin-top: 10px;
+#projects li:hover {
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+#projects a {
+	width: 250px;
+	height: 280px;
+	display: block;
+}
+
+#projects img {
+	width: 90%;
+	height: 200px;
+	margin: 10px 5% 30px;
+	border-radius: 3px;
+}
+
+#projects p {
+	width: 100%;
+	height: 55px;
+	/*margin: 10px 5% 0;*/
+	text-align: center;
+	font-size: 18px;
+	line-height: 0px;
+}
+
+/* About */
+#about li {
+	display: inline-block;
+	margin: 0 20px 0;
+	font-size: 20px;
+}
+
+#about li:nth-last-child(1) {
+	margin-right: 0;
+}
+
+#about li:nth-child(1) {
+	margin-left: 0;
+}
+
+#about p {
+	width: 55%;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+
+#about img {
+	width: 35%;
+	float: right;
+	border-radius: 5px;
+}
+
+/* Contact */
+#contact {
+	text-align: center;
+	font-size: 20px;
+	line-height: 64px;
+	margin-top: 50px;
 }
 
 /* Link styles */
@@ -85,10 +151,6 @@ a {
 a:hover {
 	color: #1976D2;
 }
-
-/*a:visited {
-	color: #00248F;
-}*/
 
 /* Media queries */
 @media (max-width: 900px) {
