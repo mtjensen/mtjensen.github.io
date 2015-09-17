@@ -33,7 +33,6 @@
 	letter-spacing: 0.96px;
 }
 
-
 /* Heading */
 #heading {
 	text-align: center;
@@ -47,12 +46,6 @@
 
 #heading h1 {
 	margin-bottom: 15px;
-}
-
-/* Wrapper */
-#wrapper {
-	width: 80%;
-	margin: auto;
 }
 
 /* Linkbar */
@@ -74,6 +67,13 @@
 #linkbar a.selected {
 	font-weight: bold;
 	cursor: pointer;
+}
+
+
+/* Main content */
+#content {
+	width: 80%;
+	margin: auto;
 }
 
 /* Projects */
