@@ -1,21 +1,44 @@
 module.exports = function(grunt) {
 
+	// grunt.initConfig({
+	// 	exec: {
+	// 		default: { 
+	// 			cwd: 'node_modules/bootstrap'
+	// 			cmd: 'grunt dist'
+	// 		}
+	// 	}
+
+	// 	// , sync: {
+	// 	// 	main: {
+	// 	// 		files: [{
+	// 	// 			cwd: 'node_modules/bootstrap/dist'
+	// 	// 			src: ['**'],
+	// 	// 			dest: 'bootstrap'
+	// 	// 		}]
+	// 	// 	}
+	// 	// }	
+
+	// });
+
 	grunt.initConfig({
-		exec: {
-			default: 'cd node_modules/bootstrap;grunt dist'
+		exec: { 
+			build_twbs: {
+				cwd: 'node_modules/bootstrap',
+				cmd: 'grunt dist'
+			},
+			echo: 'echo "I am cool"'
 		},
 		sync: {
 			main: {
-				files: [{
-					cwd: 'node_modules/bootstrap/dist'
-					src: ['**'],
-					dest: 'bootstrap'
-				}]
+				files: [
+					{cwd:'node_modules/bootstrap/dist/', src:['**'], dest: 'bootstrap/'}
+				]
 			}
-		}	
+		}
 	});
 
-	grunt.loadNpmTasks('grunt-exec', 'grunt-sync');
+	grunt.loadNpmTasks('grunt-exec');
+	grunt.loadNpmTasks('grunt-sync');
+	grunt.registerTask('default', ['exec', 'sync'])
 
-	grunt.registerTask('default', ['exec', 'sync']);
 };
