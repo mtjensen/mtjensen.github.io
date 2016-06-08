@@ -2,16 +2,22 @@
 	font: 'Noto Sans', sans-serif;
 }
 
+.navbar {
+	margin: 0;
+	height: 8vh;
+}
+
 .jumbotron {
-	background: center center url(../img/download.jpg);
+	// background: center center url(../img/download.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	height: 100vh;
+	height: 80vh;
+	margin: 0;
 }
 
 .jumbotron h1 {
-	position: absolute;
-	top: 200px;
+	// position: absolute;
+	// top: 200px;
 	opacity: 0.95;
 	color: #eee;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
@@ -19,4 +25,29 @@
 
 .navbar {
 	opacity: 0.8;
+}
+
+.navbar ul {
+	height: 100%;
+}
+
+.navbar li {
+	height: 100%;
+}
+
+.navbar li a {
+	padding: 0 15px;
+	height: 100%;
+}
+
+.background-one {
+	background-color: #32e292;
+}
+
+.background-two {
+	background-color: white;
+}
+
+section {
+	padding: 100px 0;
 }
