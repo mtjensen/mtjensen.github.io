@@ -7,10 +7,6 @@
 	opacity: 0.83;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-  // height: 8vh;
-}
-
 .navbar-brand.active {
 	color: #555;
 	background-color: #e7e7e7 !important;
