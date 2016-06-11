@@ -4,40 +4,27 @@
 
 .navbar {
 	margin: 0;
-	height: 8vh;
+	// min-height: 8vh !important;
+	opacity: 0.83;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+  // height: 8vh;
 }
 
 .jumbotron {
-	// background: center center url(../img/download.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	height: 80vh;
+	display: block;
+	height: 100vh;
 	margin: 0;
+	padding: 30vh 0;
+	background-color: #32e292;
+	background-image: url("http://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
 
-.jumbotron h1 {
-	// position: absolute;
-	// top: 200px;
-	opacity: 0.95;
+.jumbotron-text {
+	font-size: 63px;
 	color: #eee;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
-}
-
-.navbar {
-	opacity: 0.8;
-}
-
-.navbar ul {
-	height: 100%;
-}
-
-.navbar li {
-	height: 100%;
-}
-
-.navbar li a {
-	padding: 0 15px;
-	height: 100%;
+	text-align: center;
 }
 
 .background-one {
@@ -50,4 +37,5 @@
 
 section {
 	padding: 100px 0;
+	height: 800px;
 }

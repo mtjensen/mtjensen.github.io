@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
@@ -22,31 +22,34 @@
 
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#about">About me<span class="sr-only">(current)</span></a></li>
-						<li><a href="#skills">My skills</a></li>
-						<li><a href="#contact">Get in touch</a></li>
+						<li class="active"><a href="#about" id="about">About me<span class="sr-only">(current)</span></a></li>
+						<li><a href="#skills" id="skills">My skills</a></li>
+						<li><a href="#contact" id="contact">Get in touch</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<div class="jumbotron background-one">
+		<div class="jumbotron">
 			<div class="container">
-				<h1 class="text-center">Front-end web developer and programmer</h1>
+				<div class="jumbotron-text">Front-end web developer and programmer</div>
 			</div>
 		</div>
 		<div>
-			<section id="about" class="background-two">
+			<section id="about" class="background-two inview">
 				<h2 class="text-center">I build amazing experiences</h2>
 			</section>
-			<section id="skills" class="background-one">
+			<section id="skills" class="background-one inview">
 			<h2 class="text-center">Find out what I can offer you</h2>
 			</section>
-			<section id="contact" class="background-two">
+			<section id="contact" class="background-two inview">
 				<h2 class="text-center">Get in touch</h2>
 			</section>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="js/inview.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

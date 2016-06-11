@@ -2,9 +2,6 @@
   "name": "mtjensen.github.io",
   "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "^3.3.5",
-    "fittext.js": "^1.2.0",
-    "grunt-sync": "^0.4.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
