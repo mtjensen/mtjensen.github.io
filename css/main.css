@@ -11,6 +11,11 @@
   // height: 8vh;
 }
 
+.navbar-brand.active {
+	color: #555;
+	background-color: #e7e7e7 !important;
+}
+
 .jumbotron, .section-main {
 	background-image: url("http://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
