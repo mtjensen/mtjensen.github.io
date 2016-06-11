@@ -2,6 +2,8 @@
   "name": "mtjensen.github.io",
   "version": "1.0.0",
   "dependencies": {
+    "fullpage.js": "^2.8.1",
+    "waypoints": "^4.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

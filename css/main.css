@@ -12,28 +12,28 @@
   // height: 8vh;
 }
 
-.jumbotron {
+.jumbotron, .section-main {
 	display: block;
-	height: 100vh;
-	margin: 0;
-	padding: 30vh 0;
-	background-color: #32e292;
+	// height: 100vh;
+	// margin: 0;
+	// padding: 30vh 0;
+	// background-color: #32e292;
 	background-image: url("http://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
 
-.jumbotron-text {
+.main-text {
 	font-size: 63px;
 	color: #eee;
-	text-align: center;
+	// text-align: center;
 }
 
-.background-one {
-	background-color: #32e292;
-}
+// .background-one, .section-one {
+// 	background-color: #32e292;
+// }
 
-.background-two {
-	background-color: white;
-}
+// .background-two, .section-two {
+// 	background-color: white;
+// }
 
 section {
 	padding: 100px 0;
