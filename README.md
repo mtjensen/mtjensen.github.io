@@ -1,18 +1,23 @@
 # mtjensen.github.io
 
-Todo:
-- Update readme with proper markdown
-- set up dependencies using npm
-- set up grunt rules to sync dependencies to js folder
-- find out how to use npm to install a customised bootstrap
+## Todo
+* set up dependencies using npm
+* set up gulp rules to sync dependencies to js folder
+* find out how to use npm to install a customised bootstrap automatically
+* html style guide
+* sass
+* moving content into template files etc?
 
-loading animation
-background pattern/colour for navbar
-different background colour/pattern combination for each navbar/slide combo
-footer bar
+* background pattern/colour for navbar
+* different background colour/pattern combination for each navbar/slide combo
+* footer bar
+* more animations
+* parallax background?
 
-email address
-portfolio links
-customer testimonials
-links to open-source contributions
-link to github page
+* email address
+* portfolio links
+* customer testimonials
+* links to open-source contributions
+* link to github, upwork etc
+* links to essays/writing
+* photos
