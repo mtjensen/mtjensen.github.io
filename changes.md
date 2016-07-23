@@ -1,2 +1,0 @@
-- fullpage.js is used to provide whole page sections tied to navbar links and a vertical section widget
-- 23.07.2016 removed fullpage autoscrolling because it was annoying (autoScrolling: false, fitToSection: false)

@@ -35,3 +35,7 @@ h2 {
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	max-width: 75%;
 }
+
+.skills-row div {
+	margin-bottom: 15px;
+}
