@@ -4,6 +4,7 @@
   "dependencies": {
     "animsition": "^4.0.2",
     "bootstrap": "^3.3.6",
+    "fittext.js": "^1.2.0",
     "fullpage.js": "^2.8.1"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@ $(document).ready(function() {
     	// loopTop: true,
     	// loopBottom: true,
     	// touchSensitivity: 15,
-    	// recordHistory: false,
+    	recordHistory: false,
         autoScrolling: false,
         fitToSection: false,
         onLeave: function(index, nextIndex, direction) {
@@ -21,5 +21,6 @@ $(document).ready(function() {
     	outClass: 'fade-out',
         inDuration: '800',
         outDuration: '500'
-    })
+    });
+    $("#headline").fitText();
 });

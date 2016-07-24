@@ -13,7 +13,10 @@
 }
 
 #main {
-	background-image: url("http://www.transparenttextures.com/patterns/subtle-zebra-3d.png");
+	// background-image: url("http://www.transparenttextures.com/patterns/subtle-zebra-3d.png");
+	background-image: url('../img/06.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main-text {
@@ -40,6 +43,6 @@ h2 {
 	margin-bottom: 15px;
 }
 
-.navbar-shrink {
-	
+.navbar-fixed-top {
+	height: 50px;
 }
