@@ -9,7 +9,6 @@
 }
 
 .navbar-brand.active {
-	// color: #fff;
 	background-color: rgb(37, 11, 132) !important;
 }
 
@@ -56,18 +55,6 @@ h2 {
 .skills-row div {
 	margin-bottom: 15px;
 }
-
-
-// styling for the reduced-height navbar on scroll 
-// nav.navbar-shrink {
-// 	min-height: 60px !important;
-// 	opacity: 0.97;
-// }
-
-// .navbar {
-// 	min-height: 60px !important;
-// 	opacity: 0.97;
-// }
 
 @media(min-width:768px) {
 	.navbar-default {
