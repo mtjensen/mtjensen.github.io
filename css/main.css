@@ -97,3 +97,22 @@ h2 {
 		-webkit-transition: padding 0.3s;
 		transition: padding 0.3s;
 }
+
+footer {
+	height: 50px;
+	background-color: #222;
+	color: #fff;
+	padding: 15px 0px;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+.skills-row {
+	margin-top: 20px;
+}
+
+.skills-col {
+	margin-bottom: 40px !important;
+}

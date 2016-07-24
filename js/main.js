@@ -2,8 +2,9 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
     	// scrollingSpeed: 600,
     	menu: "#pageMenu",
-    	sectionsColor: ["#098ae0", "#fff", "#32e292", "#fff", "#eee"],
-    	navigation: true,
+        // sectionsColor: ["#098ae0", "#fff", "#32e292", "#fff", "#eee"],
+    	sectionsColor: ["#098ae0", "#fff", "#eee", "#fff"],
+    	// navigation: true,
     	// loopTop: true,
     	// loopBottom: true,
     	// touchSensitivity: 15,
