@@ -4,5 +4,4 @@ _site/
 *.sublime-workspace
 node_modules/
 notes/
-img/
-vendor/
+other_images/
