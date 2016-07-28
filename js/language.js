@@ -9,11 +9,9 @@ for (var prop in englishText) {
 		var category = '#' + prop;
 		var item = '.text' + (i + 1);
 		var fillText = englishText[prop][i];
+		var existing = $(category).find(item).html();
 
-
-		$(category).find(item)
-
-			.text(fillText);
+		$(category).find(item).html(existing + fillText);
 
 	}
 }
