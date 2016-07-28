@@ -140,3 +140,33 @@ h1 {
 ul {
 	list-style: none;
 }
+
+#fab {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.mfb-component__button--main, .mfb-component__button--child {
+	background-color: #250B84;
+}
+
+.mfb-component__icon, .mfb-component__main-icon--resting {
+	font-size: 28px;
+}
+
+.mfb-component__child-icon, .mfb-component__main-icon--active {
+	font-size: 18px;
+}
+
+#fab *:hover {
+	color: #fff;
+}
+
+.mfb-component__button--main:hover, .mfb-component__button--child:hover {
+	background-color: #644BC4;
+}
+
+// .mfb-component__main-icon--active, .mfb-component__main-icon--resting {
+// 	transform: scale(1,1);
+// }

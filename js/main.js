@@ -24,4 +24,12 @@ $(document).ready(function() {
         outDuration: '500'
     });
     $("#headline").fitText();
+
+    $(".deutsch").on("click", function() {
+        setLanguage(deutsch)
+    });
+    
+    $(".english").on("click", function() {
+        setLanguage(english)
+    });
 });

@@ -25,15 +25,15 @@ var english = {
 						'Creativity',
 						'In my life I\'ve played music, acted, written, and always thought outside the box. Good programmers always work to see a problem from a new perspective.'],
 	contact: ['Interested?',
-						'Email me: ',
+						'Email me',
 						'Check out my resume'],
 	footer: ['Icons selected with care from icon8. Cover photo courtesy of Unsplash.']
 };
 
 var deutsch = { 
-	menu: [	'About', 
-					'Skills', 
-					'Contact'],
+	menu: [	'Über mich', 
+					'Fähigkeiten', 
+					'Kontakt'],
 	main: [	'I am a junior',
 					'Frontend Developer',
 					'looking for opportunities in Europe'],
@@ -57,7 +57,7 @@ var deutsch = {
 						'Creativity',
 						'In my life I\'ve played music, acted, written, and always thought outside the box. Good programmers always work to see a problem from a new perspective.'],
 	contact: ['Interested?',
-						'Email me: ',
+						'Email me',
 						'Check out my resume'],
 	footer: ['Icons selected with care from icon8. Cover photo courtesy of Unsplash.']
 };
@@ -68,9 +68,9 @@ var setLanguage = function(language) {
 			var category = '#' + prop;
 			var item = '.text' + (i + 1);
 			var fillText = language[prop][i];
-			var existing = $(category).find(item).html();
+			// var existing = $(category).find(item).html();
 
-			$(category).find(item).html(fillText + existing);
+			$(category).find(item).html(fillText);
 
 		}
 	}
