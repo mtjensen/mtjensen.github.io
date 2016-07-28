@@ -141,12 +141,6 @@ ul {
 	list-style: none;
 }
 
-#fab {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-}
-
 .mfb-component__button--main, .mfb-component__button--child {
 	background-color: #250B84;
 }
@@ -167,6 +161,6 @@ ul {
 	background-color: #644BC4;
 }
 
-// .mfb-component__main-icon--active, .mfb-component__main-icon--resting {
-// 	transform: scale(1,1);
-// }
+.mfb-component__main-icon--active, .mfb-component__main-icon--resting {
+	transform: scale(1,1);
+}
