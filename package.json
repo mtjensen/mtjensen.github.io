@@ -5,7 +5,8 @@
     "animsition": "^4.0.2",
     "bootstrap": "^3.3.6",
     "fittext.js": "^1.2.0",
-    "fullpage.js": "^2.8.1"
+    "fullpage.js": "^2.8.1",
+    "mfb": "^0.12.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
