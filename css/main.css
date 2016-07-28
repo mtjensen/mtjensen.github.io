@@ -1,5 +1,12 @@
 * {
-	font: 'Noto Sans', sans-serif;
+	// font: 'Noto Sans', sans-serif;
+	// font: 'Source Sans Pro' !important;
+	// font-weight: 200;
+}
+
+body {
+font-family: 'Source Sans Pro' !important;
+	font-weight: 400 !important;	
 }
 
 .navbar {
@@ -79,23 +86,24 @@ h2 {
 }
 
 .navbar-brand {
-	transition: background-color 0.3s;
-	-moz-transition: background-color 0.3s;
-	-webkit-transition: background-color 0.3s;
-
-	-moz-transition: padding 0.3s;
-	-webkit-transition: padding 0.3s;
-	transition: padding 0.3s;
+	transition: background-color 0.3s,
+		padding 0.3s,
+		height 0.3s;
+	-moz-transition: background-color 0.3s,
+		padding 0.3s,
+		height 0.3s;
+	-webkit-transition: background-color 0.3s,
+		padding 0.3s,
+		height 0.3s;
 }
 
-.navbar-default .navbar-nav > li > a {
-	transition: background-color 0.3s;
-	-moz-transition: background-color 0.3s;
-	-webkit-transition: background-color 0.3s;
-
-			-moz-transition: padding 0.3s;
-		-webkit-transition: padding 0.3s;
-		transition: padding 0.3s;
+.navbar-nav > li > a {
+	transition: background-color 0.3s,
+		padding 0.3s;
+	-moz-transition: background-color 0.3s,
+		padding 0.3s;
+	-webkit-transition: background-color 0.3s,
+		padding 0.3s;
 }
 
 footer {
@@ -115,4 +123,20 @@ h1 {
 
 .skills-col {
 	margin-bottom: 40px !important;
+}
+
+.main-extra {
+	color: #eee;
+	font-size: 48px !important;
+	font-style: italic;
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+}
+
+.main-extra > span {
+	font-weight: 400 !important;
+}
+
+ul {
+	list-style: none;
 }
