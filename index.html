@@ -35,9 +35,9 @@
 						<div id="navbar-collapse" class="collapse navbar-collapse">
 							<ul id="menu" class="nav navbar-nav navbar-right">
 					
-								<li data-menuanchor="about"><a href="" class="text1"></a></li>
+								<li data-menuanchor="about"><a href="#about" class="text1"></a></li>
 								<li data-menuanchor="skills"><a href="#skills" class="text2"></a></li>
-								<li data-menuanchor="contact1"><a href="#contact" class="text3"></a></li>
+								<li data-menuanchor="contact"><a href="#contact" class="text3"></a></li>
 					
 							</ul>
 						</div>
@@ -47,7 +47,7 @@
 
 			<div id="fullpage">
 				
-				<div id="main" class="section" data-anchor="main">
+				<div id="section0" class="section" data-anchor="main">
 					<div class="container">
 						<h3 class="text-center main-extra text1"></h3>
 						<h1 id="headline" class="main-text text-center text2"></h1>
@@ -55,14 +55,14 @@
 					</div>
 				</div>
 				
-				<div class="section" data-anchor="about">
+				<div id="section1" class="section" data-anchor="about">
 					<div class="container">
 						<h1 class="text1 text-center"></h1>
 						<h2 class="text-center text2"></h2>
 					</div>
 				</div>
 				
-				<div class="section fp-auto-height" data-anchor="skills">
+				<div id="section2" class="section fp-auto-height" data-anchor="skills">
 					<div class="container">
 						<div class="row text-center">
 							<div class="col-xs-12">
@@ -127,22 +127,22 @@
 					</div>
 				</div>
 				
-				<div id="contact" class="section" data-anchor="contact">
-					<h1 class="text-center text1"></h1>
-					<h2 class="text-center"><a class="text2" href="mailto:mtjensen@mail.com"></a></h2>
-					<h2 class="text-center text3"></h2>
-				</div>
-
+			<div id="section3" class="section" data-anchor="contact">
+				<h1 class="text-center text1"></h1>
+				<h2 class="text-center"><a class="text2" href="mailto:mtjensen@mail.com"></a></h2>
+				<h2 class="text-center text3"></h2>
 			</div>
-			<footer id="footer" class="text-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<p class="text1"></p>
-						</div>
+
+		</div>
+		<footer id="footer" class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="text1"></p>
 					</div>
 				</div>
-			</footer>
+			</div>
+		</footer>
 		<div id="fab">
 			<ul class="mfb-component--br mfb-slidein-spring" data-mfb-toggle="hover" {{menu-state}}>
 				<li class="mfb-component__wrap">
