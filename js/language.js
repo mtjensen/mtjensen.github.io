@@ -6,7 +6,7 @@ var english = {
 					'Frontend Developer',
 					'looking for opportunities in Europe'],
 	about: ['Get to know me',
-					'Born in New Zealand in the late 1980s, I have a degree in history and have lived, travelled and worked on four continents and in over a dozen countries. I speak native English, as well as fluent German after four years of self-directed learning. Since 2014 I have pursued my interest in computers and programming, teaching myself modern web application development. I am fascinated by web development.'],
+					'Born in New Zealand in the late 1980s, I have a degree in history and have lived, travelled and worked on four continents and in over a dozen countries. I speak native English, as well as fluent German after four years of self-directed learning. Since 2014 I have pursued my interest in computers and programming, teaching myself modern web application development.'],
 	skills: [	'What I can do', 
 						'Web',
 						'Love the web? Me too! So of course I\'ve worked to master not just its building blocks, but the latest advancements in the world\'s computing platform: HTML5, CSS3, LESS and more.', 

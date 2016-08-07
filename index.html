@@ -5,9 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-<!-- 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:300,300i|Source+Sans+Pro:200,200i,300,300i,400" rel="stylesheet">
- -->		
- 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:300,300i|Source+Sans+Pro:200,200i,300,300i,400" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="vendor/fullpage.js/jquery.fullPage.css">
@@ -21,7 +20,6 @@
 	</head>
 	<body>
 		<div class="animsition">
-			
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -31,21 +29,24 @@
 						<span class="icon-bar"></span>
 					</button>
 					<div id="pageMenu">
-						<a href="#main" class="navbar-brand" data-menuanchor="main">Mike Jensen</a>
-						
+
+						<a data-menuanchor="main" href="#main" class="navbar-brand" >Mike Jensen</a>
+					
 						<div id="navbar-collapse" class="collapse navbar-collapse">
 							<ul id="menu" class="nav navbar-nav navbar-right">
-								<li data-menuanchor="about" ><a href="#about" class="text1"></a></li>
-								<li data-menuanchor="skills" ><a href="#skills" class="text2"></a></li>
-								<li data-menuanchor="contact" ><a href="#contact" class="text3"></a></li>
+					
+								<li data-menuanchor="about"><a href="" class="text1"></a></li>
+								<li data-menuanchor="skills"><a href="#skills" class="text2"></a></li>
+								<li data-menuanchor="contact1"><a href="#contact" class="text3"></a></li>
+					
 							</ul>
 						</div>
 					</div>
-				
 				</div>
 			</nav>
 
 			<div id="fullpage">
+				
 				<div id="main" class="section" data-anchor="main">
 					<div class="container">
 						<h3 class="text-center main-extra text1"></h3>
@@ -53,20 +54,18 @@
 						<h3 class="text-center main-extra text3"></h3>
 					</div>
 				</div>
-				<div  id="about"	class="section" data-anchor="about">
+				
+				<div class="section" data-anchor="about">
 					<div class="container">
-						<div class="row text-center">
-							<div class="col xs-12">
-								<h1 class="text1"></h1>
-							</div>
-						</div>
+						<h1 class="text1 text-center"></h1>
 						<h2 class="text-center text2"></h2>
 					</div>
 				</div>
-				<div id="skills" class="section" data-anchor="skills">
+				
+				<div class="section fp-auto-height" data-anchor="skills">
 					<div class="container">
 						<div class="row text-center">
-							<div class="col xs-12">
+							<div class="col-xs-12">
 								<h1 class="text1"></h1>
 							</div>
 						</div>
@@ -127,56 +126,54 @@
 						</div>
 					</div>
 				</div>
+				
 				<div id="contact" class="section" data-anchor="contact">
 					<h1 class="text-center text1"></h1>
 					<h2 class="text-center"><a class="text2" href="mailto:mtjensen@mail.com"></a></h2>
 					<h2 class="text-center text3"></h2>
 				</div>
-				<footer id="footer" class="text-center">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12">
-								<p class="text1"></p>
-							</div>
+
+			</div>
+			<footer id="footer" class="text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<p class="text1"></p>
 						</div>
 					</div>
-				</footer>
-		</div>
-				<div id="fab">
-					<ul class="mfb-component--br mfb-slidein-spring" data-mfb-toggle="hover" {{menu-state}}>
-					  <li class="mfb-component__wrap">
-					    <!-- the main menu button -->
-					    <a class="mfb-component__button--main english">
-					      <!-- the main button icon visibile by default -->
-					      <i class="mfb-component__main-icon--resting glyphicon glyphicon-globe"></i>
-					      <!-- the main button icon visibile when the user is hovering/interacting with the menu -->
-					      <i class="mfb-component__main-icon--active {{active-icon-class}}">EN</i>
-					    </a>
-					    <ul class="mfb-component__list">
-					      <!-- a child button, repeat as many times as needed -->
-					      <li>
-					        <a class="mfb-component__button--child deutsch">
-					          <i class="mfb-component__child-icon {{icon-class}}">DE</i>
-					        </a>
-					      </li>
-					    </ul>
-					  </li>
-					</ul>
 				</div>
-			</div>
+			</footer>
+		<div id="fab">
+			<ul class="mfb-component--br mfb-slidein-spring" data-mfb-toggle="hover" {{menu-state}}>
+				<li class="mfb-component__wrap">
+					<!-- the main menu button -->
+					<a class="mfb-component__button--main english">
+						<!-- the main button icon visibile by default -->
+						<i class="mfb-component__main-icon--resting glyphicon glyphicon-globe"></i>
+						<!-- the main button icon visibile when the user is hovering/interacting with the menu -->
+						<i class="mfb-component__main-icon--active {{active-icon-class}}">EN</i>
+					</a>
+					<ul class="mfb-component__list">
+						<!-- a child button, repeat as many times as needed -->
+						<li>
+							<a class="mfb-component__button--child deutsch">
+								<i class="mfb-component__child-icon {{icon-class}}">DE</i>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-			<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="vendor/fullpage.js/jquery.fullPage.js"></script>
-			<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
-			<script type="text/javascript" src="vendor/fittext.js/jquery.fittext.js"></script>
-			<script type="text/javascript" src="vendor/classie/classie.js"></script>
-			<script type="text/javascript" src="vendor/cbpAnimatedHeader/cbpAnimatedHeader.js"></script>
-			<script type="text/javascript" src="vendor/mfb/mfb.min.js"></script>
-
-
-			<script type="text/javascript" src="js/main.js"></script>
-			<script type="text/javascript" src="js/language.js"></script>
-
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="vendor/fullpage.js/jquery.fullPage.js"></script>
+		<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+		<script type="text/javascript" src="vendor/fittext.js/jquery.fittext.js"></script>
+		<script type="text/javascript" src="vendor/classie/classie.js"></script>
+		<script type="text/javascript" src="vendor/cbpAnimatedHeader/cbpAnimatedHeader.js"></script>
+		<script type="text/javascript" src="vendor/mfb/mfb.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/language.js"></script>
 	</body>
 </html>

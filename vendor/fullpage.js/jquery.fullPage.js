@@ -2264,7 +2264,8 @@
                     setUrlHash(sectionHash + '/' + slideAnchor);
 
                 //first slide won't have slide anchor, just the section one
-                }else if(typeof slideIndex !== 'undefined'){
+                }
+                else if (typeof slideIndex !== 'undefined'){
                     lastScrolledSlide = slideAnchor;
                     setUrlHash(anchorLink);
                 }

@@ -1,12 +1,14 @@
 var gulp = require('gulp')
 
+var $NODE = "./node_modules"
+
 gulp.task('vendor', function() {
-	gulp.src('./node_modules/animsition/dist/**/*')
+	gulp.src(`${$NODE}/animsition/dist/**/*`)
 		.pipe(gulp.dest('./vendor/animsition'))
-	gulp.src('./node_modules/fullpage.js/**/*')
+	gulp.src(`${$NODE}/fullpage.js/**/*`)
 		.pipe(gulp.dest('./vendor/fullpage.js'))
-	gulp.src('./node_modules/fittext.js/jquery.fittext.js')
+	gulp.src(`${$NODE}/fittext.js/jquery.fittext.js`)
 		.pipe(gulp.dest('./vendor/fittext.js'))
-	gulp.src('./node_modules/mfb/src/**/*')
+	gulp.src(`${$NODE}/mfb/src/**/*`)
 		.pipe(gulp.dest('./vendor/mfb'))
 });
