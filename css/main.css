@@ -10,8 +10,17 @@ body {
 	box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 
+.navbar a {
+	outline: 0;
+}
+
+.navbar a:focus {
+	background: initial;
+}
+
 .navbar-brand.active {
 	background-color: rgb(37, 11, 132) !important;
+	color: #fff;
 }
 
 a.navbar-brand {
@@ -115,16 +124,30 @@ h2 {
 	max-width: 75%;
 }
 
-.skills-row div {
-	margin-bottom: 15px;
-}
-
 .skills-row {
 	margin-top: 35px;
 }
 
 .skills-col {
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
+	padding: 20px 25px;
+	min-height: 310px;
 	margin-bottom: 40px !important;
+	transition: box-shadow 0.3s;
+}
+
+.skills-col:hover {
+	background-color: #f5f5f5;
+	box-shadow:  0px 0px 3px rgba(0,0,0,0.5) inset;
+	transition: box-shadow 0.3s;
+}
+
+/* Contact CSS */
+@media(min-width:768px) {
+	.heading-tall {
+		margin-bottom: 35px;
+	}
 }
 
 /* Footer CSS */
@@ -145,7 +168,7 @@ footer {
 }
 
 .mfb-component__icon, .mfb-component__main-icon--resting {
-	font-size: 28px;
+	font-size: 18px;
 	color: #fff;
 }
 

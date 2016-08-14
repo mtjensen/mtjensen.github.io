@@ -63,6 +63,12 @@ var deutsch = {
 };
 
 var setLanguage = function(language) {
+	var languageLabel = 'EN';
+
+	if (language == deutsch) {
+		languageLabel = 'DE';
+	}
+
 	for (var prop in language) {
 		for (i=0; i < language[prop].length; i++) {
 			var category = '#' + prop;
@@ -71,6 +77,8 @@ var setLanguage = function(language) {
 			$(category).find(item).html(fillText);
 		}
 	}
+
+	$('.mfb-component__main-icon--resting').html(languageLabel);
 }
 
 setLanguage(english);
