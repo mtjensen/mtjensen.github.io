@@ -25,8 +25,7 @@ var english = {
 						'Creativity',
 						'In my life I\'ve played music, acted, written, and always thought outside the box. Good programmers always work to see a problem from a new perspective.'],
 	section3: ['Interested?',
-						'Email me',
-						'Check out my resume'],
+						'Email me'],
 	footer: ['Icons selected with care from icon8. Cover photo courtesy of Unsplash.']
 };
 
@@ -34,31 +33,30 @@ var deutsch = {
 	menu: [	'Über mich', 
 					'Fähigkeiten', 
 					'Kontakt'],
-	section0: [	'Ich bin ein einsteigender',
+	section0: [	'Ich bin ein Junior',
 					'Frontend-Entwickler',
 					'auf der Suche nach dem nächsten Schritt'],
-	section1: ['Lernen Sie mich kennen',
-					'1980 in Neuseeland geboren, ich habe einen Bachelors Abschluss in Geschichte und habe auf vier Kontinenten und in mehr als 12 Länder gelebt, gereist und gearbeitet. Ich spreche Englisch als Muttersprache und fließendes Deutsch nach vier Jahren selbst geführtes Lernen. Seit 2014 widme ich mich meiner Fazsination von Rechner und Technik, indem ich mir selbst die moderne Webentwicklung beibringe. Seit 2015 lebe ich im Norden Deutschlands und jetzt suche ich eine Stelle als Junior Frontend Entwickler.'],
-	section2: [	'Was ich einbringe', 
+	section1: ['Das bin ich',
+					'Ich bin 1989 in Dunedin, Neuseeland geboren, habe dort bis zum Ende meines Bachelorstudiums im Bereich Geschichte gelebt. Kurz darauf habe ich für ein Jahr in Australien gearbeitet, habe Asien bereist und bin letztendlich August 2015 nach Deutschland gezogen. Seit 2014 widme ich mich meiner Faszination von Computern, Technik und Programmierung und erlerne eigenständig Webentwicklung und verschiedene Programmiersprachen. Zurzeit suche ich eine Stelle als Junior Frontend Entwickler, um meine Kenntnisse weiter auszubauen und meine Fähigkeiten unter Beweis zu stellen.'],
+	section2: [	'Was ich biete', 
 						'Web',
-						'Lieben Sie das Web? Ich auch! Deswegen habe ich alles gegeben, um nicht nur seine Grundlagen zu meistern, sondern auch seine neuesten Entwickungen - HTML5, CSS3, LESS and mehr.', 
+						'Liebst du das Web? Ich auch! Deswegen habe ich alles gegeben, um nicht nur die Grundlagen von Webtechnologien zu meistern, sondern auch den Überblick über die neuesten Entwicklungen zu erwerben - HTML5, CSS3, LESS und mehr.', 
 						'Javascript', 
-						'Als Applikationsprache des Webs blüht Javascript unwiederstehbar auf. Ich habe starke Kenntnisse in JS und jQuery, sowie Grundwissen im neusten ES6.', 
+						'Als Applikationssprache des Webs blüht Javascript unaufhaltsam auf. Ich habe erweiterte Kenntnisse in JS und jQuery, sowie Grundwissen im neusten ES6.', 
 						'Frameworks', 
-						'Heutzutage sind Frontendler mit der Auswahl leistungsstarker Frameworks absolut verwöhnt. Ich bin großer fan von Bootstrap and Angular, unter anderem.', 
+						'Heutzutage sind Frontendentwickler mit der Auswahl leistungsstarker Frameworks absolut verwöhnt. Es macht Spaß, Erfahrungen mit verschieden Frameworks zu machen - unter anderem habe ich mit Bootstrap und Angular gearbeitet.', 
 						'Node', 
-						'Node.js ist eine mächtige Plattform zum Ausführen Javascript Programme. Ich habe Erfahrung in Node, sowohl als auch Express, das beliebte Node Webserver.', 
+						'Node.js ist eine mächtige Plattform zum Ausführen von Javascript Programmen. Ich habe Erfahrung in Node, sowohl als auch Express, dem beliebte Node Webserver.', 
 						'Entwicklertools',
-						'Jeder Entwickler braucht leistungsfähige und vertrauenswürdige Werkzeuge. Ich wende an Sublime Text mit dem Emmet Plugin, sowie Gulp, npm, Vim und Fish Shell.', 
+						'Jeder Entwickler braucht leistungsfähige und vertrauenswürdige Werkzeuge. Ich verwende Sublime Text mit dem Emmet Plugin, sowie Gulp, npm, Vim und Fish Shell.', 
 						'Kommunikation', 
-						'Kommunikation ist König. Ich habe es immer geliebt, mich auszudrücken und mit anderen zu unterhalten, ob schriftlich oder mündlich. Zudem lege ich gründlich und klar dokumentiertes Code ans Herzen.', 
+						'Kommunikation ist der Schlüssel. Ich habe es immer geliebt, mich zu artikulieren und mit anderen zu unterhalten, ob schriftlich oder mündlich. Zudem wertschätze ich gründlich und klar dokumentierten Code.', 
 						'Zusammenarbeit', 
-						'Das Softwareentlickung ist ein Gruppenspiel. Ich liebe es, in einem Team zu arbeiten, und ich biete entsprechende Fähigkeiten in der klaren Planung, Führung und Kompromisseschließen an.',
+						'Entwicklung ist ein Gruppenspiel. Ich liebe es, in einem Team zu arbeiten, und ich biete entsprechende Fähigkeiten in klarer Planung, Führung und Kompromissschließung an.',
 						'Kreativität',
-						'Ich habe im Leben Geschichten geschrieben, Instrumente gespielt und bin ein Paar Mal auf die Bühne gekommen. Gute Programmier begehen immer ungewöhnliche Denkweisen - und das versuche ich auch.'],
+						'Ich habe im Leben Geschichten geschrieben, Instrumente gespielt und bin ein Paar Mal auf die Bühne gekommen. Gute Programmierer begehen immer ungewöhnliche Denkweisen - und das strebe ich auch an.'],
 	section3: ['Interessiert?',
-						'Schicken Sie mir eine Email',
-						'Schauen Sie meinen Lebenslauf an.'],
+						'Schick mir eine Email'],
 	footer: ['Ikone sorgfältig bei icon8 ausgewählt. Hauptfoto mit freundlicher Genehmigung von Unsplash.']
 };
 
@@ -81,4 +79,4 @@ var setLanguage = function(language) {
 	$('.mfb-component__main-icon--resting').html(languageLabel);
 }
 
-setLanguage(english);
+setLanguage(deutsch);

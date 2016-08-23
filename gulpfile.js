@@ -7,6 +7,7 @@ var cleanCSS = require('gulp-clean-css');
 var nodePath = "./node_modules";
 
 var javascriptSources = [
+	`./src/js/jquery.js`,
 	`${nodePath}/bootstrap/dist/js/bootstrap.js`, 
 	`${nodePath}/fullpage.js/jquery.fullPage.js`, 
 	`${nodePath}/animsition/dist/js/animsition.js`, 
@@ -22,7 +23,7 @@ var cssSources = [
 	`${nodePath}/fullpage.js/jquery.fullPage.css`,
 	`${nodePath}/animsition/css/animsition.css`,
 	`${nodePath}/mfb/src/mfb.css`,
-	'src/css/main.css'
+	`src/css/main.css`
 ];
 
 gulp.task('vendor', function() {
@@ -35,7 +36,7 @@ gulp.task('compressJS', function() {
 		.pipe(uglify())
 		.pipe(concat('compressed.js'))
 		.pipe(gulp.dest('./js/'));
-})
+});
 
 
 gulp.task('compressCSS', function() {
@@ -43,6 +44,6 @@ gulp.task('compressCSS', function() {
 		.pipe(cleanCSS())
 		.pipe(concat('compressed.css'))
 		.pipe(gulp.dest('./css/'))
-})
+});
 
-gulp.task('default', ['vendor', 'compressJS', 'compressCSS'])
+gulp.task('default', ['vendor', 'compressJS', 'compressCSS']);
